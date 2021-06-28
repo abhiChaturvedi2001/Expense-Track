@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" class="css" />
+    <title>Expense tracker</title>
+  </head>
+  <body>
+    <div class="app-data">
+      <h1>Expense tracker</h1>
+      <div class="container">
+        <div class="main">
+          <h1>My balance :</h1>
+          <div id="balance">$7000</div>
+        </div>
+        <div class="cashflow">
+          <div class="Income">
+           <i class="fa fa-arrow-up" id="up" ></i>
+           <div class="data">
+            <h4>Income</h4>
+            <div class="income">$2000</div>
+           </div>
+          </div>
+          <div class="Expense">
+            <i class="fa fa-arrow-down" id="up" ></i>
+           <div class="data">
+            <h4>Expense</h4>
+            <div class="expense">$2000</div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="transaction-container">
+          <h4>Transaction History</h4>
+          <ul class="list">
+              <!-- <li>
+                  salary
+                  <div>
+                      <span class="income-amt"> $500</span>
+                      <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                  </div>
+              </li>
+              <li>
+                  Buy guitar
+                  <div>
+                      <span class="expense-amt"> $500</span>
+                      <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                  </div>
+              </li> -->
+          </ul>
+      </div>
+      <div class="add-transaction-container">
+        <h1>Add New Transaction</h1>
+    </div>
+    <div class="form">
+        <label>Name</label>
+        <input type="text" id="Text"><br>
+        <label>Amount</label>
+        <input type="number"  id="Amount"><br>
+        <button class="btn" id="btn1">Add Income</button>
+        <button class="btn" id="btn2"> Add Expense</button>
+    </div2
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
