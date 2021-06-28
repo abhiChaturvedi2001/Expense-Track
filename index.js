@@ -9,12 +9,12 @@ const list = document.querySelector(".list");
 
 // making aray of object
 const state = {
-  balance: 7000,
-  income: 9000,
-  expense: 2000,
+  balance: 0,
+  income: 0,
+  expense: 0,
   transactions: [
-    {  name: "salary", type: "income", amount: 9000 },
-    {  name: "Buy guitar", type: "expense", amount: 2000 },
+    {  name: "salary", type: "income", amount: 0 },
+    {  name: "Buy guitar", type: "expense", amount: 0 },
   ],
 };
 
