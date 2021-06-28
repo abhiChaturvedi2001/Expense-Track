@@ -162,3 +162,28 @@ button{
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width:900px){
+    .main h1{
+        font-size: 2rem;
+    }
+    .app-data{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        min-height: 40vh;
+    }
+   
+}
+
+@media screen and (max-width: 768px){
+    .Income h4{
+        font-size: 1rem;
+        color: white;
+    }
+    .Expense h4{
+        font-size: 1rem;
+        color: white;
+    }
+}
