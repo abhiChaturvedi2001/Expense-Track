@@ -153,15 +153,7 @@ button{
     transition: all 0.4s ease;
 }
 
-@media screen and (max-width:900px){
-    .cashflow{
-        flex-direction: column;
-        text-align: center;
-    }
-    .main h1{
-        font-size: 2rem;
-    }
-}
+
 
 @media screen and (max-width:900px){
     .main h1{
